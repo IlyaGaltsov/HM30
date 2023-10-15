@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Форма для будинку</title>
+</head>
+<body>
+  <div id="houseForm">
+    <h2>Форма для будинку</h2>
+    <input type="text" id="address" placeholder="Адреса"><br>
+    <input type="number" id="numFloors" placeholder="Кількість поверхів"><br>
+    <input type="number" id="numApartments" placeholder="Апартаменти"><br>
+    <button id="nextHouse">Далі</button>
+  </div>
+
+  <div id="apartmentForm" style="display: none;">
+    <h2>Форма для апартаментів</h2>
+  </div>
+
+  <div id="personForm" style="display: none;">
+    <h2>Форма для особи</h2>
+  </div>
+
+  <div id="modal" style="display: none;">
+    <h2>Всі дані про будинок</h2>
+    <div id="output"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
